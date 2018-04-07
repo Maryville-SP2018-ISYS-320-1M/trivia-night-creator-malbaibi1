@@ -1,7 +1,7 @@
 /*
  ISYS 320
  Name(Mansoor Malbaibi):
- Date: 
+ Date: 07-04-2018
 */
 
 //Pseudocode
@@ -32,5 +32,5 @@ On the Trivia Night:
 After the Trivia Night:
 
 
-> Thanks publicly to all those involved
+> Thanks publicly to all those involved.
 > Announces the sum of money collected in club newsletters, social media, website and club.
