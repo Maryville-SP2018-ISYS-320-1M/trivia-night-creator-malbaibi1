@@ -8,8 +8,9 @@ public class SampleFileCreator {
 
 		for (int round = 1; round <= 10; round++) {
 			// Get the output file name and round number
-			String fileName = "category_name_" + round + ".txt";
 			String roundNumber = String.valueOf(round);
+			if (round < 10) roundNumber = "0" + roundNumber;
+			String fileName = roundNumber + "_category_name.txt";
 			File f = new File(fileName);
 
 			System.out.println("Creating file: " + f.getAbsolutePath());
